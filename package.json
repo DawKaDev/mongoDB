@@ -1,17 +1,29 @@
 {
-  "name": "ComapnyApp",
+  "name": "comapnyapp",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "mocha --watch \"./**/*.test.js\""
+    "test": "mocha --watch \"./{,!(node_modules)/**/}*.test.js\""
   },
   "dependencies": {
+    "chai": "^4.2.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mocha": "^6.2.1",
     "mongodb": "3.3.2",
     "mongoose": "5.7.1",
     "nodemon": "^1.19.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rysiek1147/mongoDB.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/rysiek1147/mongoDB/issues"
+  },
+  "homepage": "https://github.com/rysiek1147/mongoDB#readme",
+  "description": ""
 }
