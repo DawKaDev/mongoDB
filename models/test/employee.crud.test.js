@@ -43,6 +43,7 @@ describe('Employee', () => {
 
     after(async() => {
       await Employee.deleteMany();
+      await Department.deleteMany();
     });
 
     it('sholud return all data with "find" method', async () => {
