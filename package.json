@@ -16,7 +16,7 @@
     "mocha": "^6.2.1",
     "mongodb": "3.3.2",
     "mongodb-memory-server": "^6.6.1",
-    "mongoose": "5.7.1",
+    "mongoose": "5.7.5",
     "nodemon": "^1.19.1",
     "onchange": "6.1.0"
   },
